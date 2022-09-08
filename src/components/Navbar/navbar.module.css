@@ -1,0 +1,50 @@
+.home {
+  color: #ff0000cf;
+  font-size: 17px;
+}
+
+.link {
+  color: rgba(86, 115, 189, 0.61);
+}
+
+.contact {
+  background: #010a3a;
+  color: #ffffff;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.agent {
+  background: #028bbe;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.mobileBg {
+  background: #028bbe;
+}
+
+.agentS {
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #028bbe;
+  /* padding-top: 0px; */
+  text-align: center;
+}
+.homes {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .link {
+    font-size: 14px;
+  }
+  .home {
+    font-size: 14px;
+  }
+  .logo {
+    width: 140px;
+    height: 40px;
+  }
+}
