@@ -1,0 +1,17 @@
+.headText h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #061240;
+  line-height: 67px;
+}
+
+.headText p {
+  font-size: 17px;
+  color: #061240;
+}
+.becomeBtn {
+  background: #010a3a;
+  color: #ffffff;
+
+  border-radius: 5px;
+}
