@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
+import { BsArrowLeftShort } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
 
 function Index() {
@@ -22,11 +23,21 @@ function Index() {
             </span>{" "}
             Become An Agent
           </button>
+
+          <div className="flex items-center gap-x-3 mt-10">
+            <span className={`${styles.leftArrow} py-1 px-1`}>
+              <BsArrowLeftShort size={25} color={"#061240"} />
+            </span>
+            <span className={`${styles.rightArrow} py-1 px-1`}>
+              <BsArrowRightShort size={25} color={"#061240"} />
+            </span>
+          </div>
         </div>
         <div className="w-1/2">
           <iframe
-            width="860"
-            height="417"
+            width="850"
+            height="625"
+            borderRadius="0px 0px 0px 95px"
             src="https://www.youtube.com/embed/uXWycyeTeCs"
             title="Youtube Player"
             frameborder="0"

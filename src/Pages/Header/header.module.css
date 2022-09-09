@@ -15,3 +15,13 @@
 
   border-radius: 5px;
 }
+
+.leftArrow {
+  background: #cdf2f4;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.rightArrow {
+  background: #cdf2f4;
+  border-radius: 0px 10px 0px 0px;
+}
