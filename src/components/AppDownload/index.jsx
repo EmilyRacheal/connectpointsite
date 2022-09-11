@@ -5,7 +5,7 @@ import GoogleBtn from "../../assets/google play button.svg";
 
 function Index() {
   return (
-    <div className={`${styles.container} md:px-20 px-5 w-full pt-10`}>
+    <div className={`${styles.container} lg:px-20 px-5 w-full pt-10`}>
       <div className="flex flex-col md:flex md:flex-row items-center justify-between md:gap-x-5 gap-y-5">
         <div className="md:w-1/2 w-full flex items-center justify-center">
           <img src={Phone} alt="" />

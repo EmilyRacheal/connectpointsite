@@ -15,7 +15,7 @@ import Horizon from "../../assets/cropped-icon-logo-white 1.png";
 function Index() {
   return (
     <div className="pt-10">
-      <div className={`${styles.imgs} md:px-20 px-5`}>
+      <div className={`${styles.imgs} lg:px-20 px-5`}>
         <div>
           <div
             className={`${styles.partnerHead} lg:w-1/2 w-full hidden lg:block`}
