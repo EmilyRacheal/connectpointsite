@@ -1,0 +1,27 @@
+.container {
+  background: rgba(205, 242, 244, 0.24);
+}
+
+.downloadBtn {
+  background: #028bbe;
+  border-radius: 59px;
+  font-size: 17px;
+}
+
+.easyPay {
+  color: #028bbe;
+  font-size: 37px;
+  font-weight: 600;
+}
+
+.payOffer {
+  font-size: 14px;
+  color: #028bbe;
+}
+
+@media screen and (max-width: 600px) {
+  .easyPay {
+    line-height: 45px;
+    font-size: 37px;
+  }
+}

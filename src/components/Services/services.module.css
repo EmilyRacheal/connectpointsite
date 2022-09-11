@@ -1,0 +1,35 @@
+.serviceText h4 {
+  color: #028bbe;
+}
+
+.serviceText h1 {
+  color: #061240;
+  font-size: 49px;
+  font-weight: 900;
+}
+.serviceInfo h3 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #061240;
+}
+.serviceInfo p {
+  font-size: 19px;
+}
+
+.serviceInfo {
+  background: rgba(205, 242, 244, 0.29);
+}
+
+@media screen and (max-width: 600px) {
+  .serviceText h1 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .serviceInfo h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .serviceInfo p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,31 @@
+.partners {
+  font-size: 18px;
+  font-weight: 700;
+  color: #028bbe;
+}
+
+.ourPartners {
+  color: #1c1c1c;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.imgCard {
+  background-color: white;
+  margin: 10px 0px;
+  height: 100px;
+  display: flex;
+  /* width: 140px; */
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .imgs {
+    background: #f3fcfc;
+  }
+ 
+  
+}
