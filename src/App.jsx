@@ -6,6 +6,7 @@ import Header from "./Pages/Header/index";
 import Services from "./components/Services/index";
 import AppDownload from "./components/AppDownload/index";
 import Partners from "./components/Partners/index";
+import Footer from "./components/Footer/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <AppDownload />
       <Partners />
+      <Footer />
     </div>
   );
 }
