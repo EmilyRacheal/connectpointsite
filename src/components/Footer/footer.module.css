@@ -1,0 +1,29 @@
+.footerBg {
+  background: url("../../assets/Rectangle 19.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 90vh; */
+}
+
+.overlay {
+  height: 250px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.textSolution {
+  font-size: 45px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.socialIcons span {
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.list li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}

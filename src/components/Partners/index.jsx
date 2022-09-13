@@ -26,7 +26,7 @@ function Index() {
             </h1>
           </div>
           <div
-            className={`${styles.img} flex flex-wrap items-center w-full justify-center  md:gap-x-20 md:py-10 gap-x-10`}
+            className={`${styles.img} flex flex-wrap items-center w-full   md:gap-x-20 md:py-10 gap-x-10`}
           >
             <div className={`${styles.imgCard} w-40`}>
               <img src={Access} alt="" />
