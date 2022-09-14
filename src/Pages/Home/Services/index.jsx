@@ -11,7 +11,7 @@ import Rect3 from "../../../assets/rect3.png";
 
 function Index() {
   return (
-    <div className="lg:px-20 px-5">
+    <div className="lg:px-20 px-5 pb-20">
       <div className="">
         <div className={`${styles.serviceText} text-center md:text-left`}>
           <h4 className="font-bold text-lg">Services</h4>
