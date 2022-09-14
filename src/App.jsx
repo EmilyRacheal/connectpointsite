@@ -1,24 +1,22 @@
 import { useState } from "react";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/index";
-import Header from "./Pages/Header/index";
-import Services from "./components/Services/index";
-import AppDownload from "./components/AppDownload/index";
-import Partners from "./components/Partners/index";
-import Footer from "./components/Footer/index";
+import Home from "./Pages/Home/index";
+import About from "./Pages/About/index";
+import Contact from "./Pages/Contact/index";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Services />
-      <AppDownload />
-      <Partners />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.whoText h1 {
+  font-size: 27px;
+  font-weight: 800;
+  color: #061240;
+}
+
+.whoText p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #061240;
+}
+
+@media screen and (max-width: 600px) {
+  .whoText h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .whoText p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #061240;
+  }
+}

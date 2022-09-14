@@ -1,0 +1,36 @@
+.mapBg {
+  background: #f3fcfc;
+  box-shadow: -12px 31px 13px rgba(0, 0, 0, 0.1);
+}
+
+.mapHead h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #061240;
+}
+
+.mapHead p {
+  color: #061240;
+  font-weight: 500;
+}
+
+.contactCard h1 {
+  font-size: 38px;
+  color: #061240;
+  font-weight: 700;
+}
+
+.formInput {
+  background: #ffffff;
+  box-shadow: -5px 6px 9px rgba(0, 0, 0, 0.04);
+}
+.formInput input {
+  outline: none;
+}
+
+textarea {
+  background: #f3fcfc;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  color: #000000;
+  outline: #061240;
+}

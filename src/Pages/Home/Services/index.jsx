@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./services.module.css";
-import Rectangle12 from "../../assets/Rectangle 12.png";
-import Rectangle13 from "../../assets/Rectangle 13.png";
-import Rectangle11 from "../../assets/Rectangle 11.png";
-import Rectangle14 from "../../assets/Rectangle 14.png";
-import Rect1 from "../../assets/rect1.png";
-import Rect2 from "../../assets/rect2.png";
-import Rect3 from "../../assets/rect3.png";
+import Rectangle12 from "../../../assets/Rectangle 12.png";
+import Rectangle13 from "../../../assets/Rectangle 13.png";
+import Rectangle11 from "../../../assets/Rectangle 11.png";
+import Rectangle14 from "../../../assets/Rectangle 14.png";
+import Rect1 from "../../../assets/rect1.png";
+import Rect2 from "../../../assets/rect2.png";
+import Rect3 from "../../../assets/rect3.png";
 // import Rect4 from "../../assets/rect4.png";
 
 function Index() {

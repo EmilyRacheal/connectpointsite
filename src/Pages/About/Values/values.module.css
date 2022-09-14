@@ -1,0 +1,42 @@
+.coreTxt h1 {
+  color: #061240;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.Integrity {
+  background: #028bbe;
+  border-radius: 10px;
+  width: 97px;
+  height: 81px;
+}
+
+.interTxt {
+  color: #061240;
+}
+
+.bar {
+  width: 97px;
+  height: 81px;
+  background: #061240;
+  border-radius: 10px 10px 20px 8px;
+}
+
+.firstW {
+  background: #ffffff;
+  box-shadow: -8px 8px 13px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 20px 8px;
+  height: 469px;
+}
+
+@media screen and (max-width: 600px) {
+  .coreTxt h1 {
+    font-size: 30px;
+  }
+
+  .firstW {
+    background: #ffffff;
+
+    border: 1px solid rgba(0, 0, 0, 0.14);
+  }
+}

@@ -1,0 +1,37 @@
+.become h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #010a3a;
+}
+
+.become p {
+  font-size: 19px;
+
+  color: #010a3a;
+}
+
+.divheight {
+  height: 314px;
+}
+
+.imgDiv {
+  width: 250px;
+}
+
+.imgDiv h3 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #061240;
+}
+
+.imgDiv p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #061240;
+}
+
+.agent {
+  background: #028bbe;
+  color: #ffffff;
+  border-radius: 5px;
+}
