@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/index";
 import ContactHero from "./contactHero/index";
 import Benefits from "./Benefits/index";
 import Map from "./Map/index";
+import Footer from "../../components/Footer";
 
 function Index() {
   return (
@@ -11,6 +12,7 @@ function Index() {
       <ContactHero />
       <Benefits />
       <Map />
+      <Footer />
     </div>
   );
 }

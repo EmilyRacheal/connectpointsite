@@ -41,7 +41,7 @@ function Index() {
         </div>
         <div className={`${styles} lg:w-1/2 w-full h-full`}>
           <iframe
-            src="https://www.youtube.com/embed/uXWycyeTeCs"
+            src="https://techtalks2022.vietnamworks.com/?utm_content=Q&utm_source=GGD&utm_medium=TaG&utm_campaign=TT22&gclid=Cj0KCQjw94WZBhDtARIsAKxWG-_qRI5e4L8DpqRJQC-GBp3sQyyP3vF5pFudNv0CL9zXWtAvja5AgSMaAmPEEALw_wcB"
             title="Youtube Player"
             frameborder="0"
             allowFullScreen

@@ -26,6 +26,7 @@
 }
 .formInput input {
   outline: none;
+  background: transparent;
 }
 
 textarea {
@@ -33,4 +34,23 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.38);
   color: #000000;
   outline: #061240;
+}
+
+@media screen and (max-width: 600px) {
+  .contactCard {
+    background-size: cover;
+    background-repeat: no-repeats;
+    background: url("../../../assets//contact.png");
+  }
+  textarea {
+    background: #f3fcfc;
+    border: none;
+    color: #000000;
+  }
+  .contactCard h1 {
+    font-size: 30px;
+    color: #028bbe;
+    text-align: center;
+    /* padding: 5px 0px; */
+  }
 }
