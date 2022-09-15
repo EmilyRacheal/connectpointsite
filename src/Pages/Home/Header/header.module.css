@@ -24,6 +24,11 @@
   border-radius: 5px;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 .leftArrow {
   background: #cdf2f4;
   border-radius: 0px 0px 0px 10px;

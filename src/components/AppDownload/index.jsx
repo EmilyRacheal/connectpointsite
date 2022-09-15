@@ -17,7 +17,9 @@ function Index() {
           <h1 className={`${styles.easyPay} py-5 md:py-0 md:pt-5`}>
             Easy Payment At Your Finger Tip
           </h1>
-          <p className={`${styles.payOffer} py-5`}>
+          <p
+            className={`${styles.payOffer} hidden md:block text-[20px] py-5 w-[80%]`}
+          >
             Cpoint Pay offer you the best payment experience at your convinient.
             Trasfer money, pay bills and topup your airtime and data from Cpoint
             app to earn instant cashbacks

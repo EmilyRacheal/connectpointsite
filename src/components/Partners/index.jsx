@@ -28,34 +28,34 @@ function Index() {
           <div
             className={`${styles.img} flex flex-wrap items-center w-full   md:gap-x-20 md:py-10 gap-x-10`}
           >
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Access} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Provid} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Zeneth} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Accelerex} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Unified} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Interswitch} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Nibis} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Asino} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Next} alt="" />
             </div>
-            <div className={`${styles.imgCard} w-40`}>
+            <div className={`${styles.imgCard} w-[43%] sm:w-40`}>
               <img src={Horizon} alt="" />
             </div>
           </div>
