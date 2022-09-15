@@ -64,7 +64,7 @@ function Index() {
                 <Link to="/about"> About Us</Link>
               </li>
               <li>Events</li>
-              <li>Join us</li>
+              <Link to="/contact"> Join Us</Link>
 
               <div>
                 <li className={`${styles.agentS} py-1 px-3`}>
