@@ -18,9 +18,9 @@ function Index() {
       <div className={`${styles.imgs} lg:px-20 px-5`}>
         <div>
           <div
-            className={`${styles.partnerHead} lg:w-1/2 w-full hidden lg:block`}
+            className={`${styles.partnerHead} lg:w-1/2 w-full md:text-left  text-center py-7 md:py-0`}
           >
-            <h3 className={`${styles.partners}`}>Our Partners</h3>
+            <h3 className={`${styles.partners} py-3 lg:py-0`}>Our Partners</h3>
             <h1 className={`${styles.ourPartners}`}>
               Our Partners Solving Problem Is Possible Through Partnerships
             </h1>

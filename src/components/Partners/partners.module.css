@@ -26,6 +26,29 @@
   .imgs {
     background: #f3fcfc;
   }
- 
-  
+
+  .ourPartners {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+  .partners {
+    font-size: 18px;
+    font-weight: 700;
+    color: #028bbe;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ourPartners {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
+  .partners {
+    font-size: 16px;
+    font-weight: 700;
+    color: #028bbe;
+  }
 }
