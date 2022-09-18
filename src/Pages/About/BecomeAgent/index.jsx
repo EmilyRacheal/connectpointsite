@@ -41,17 +41,17 @@ function Index() {
             </span>
             Become an Agent
           </button>
-          <div className=" justify-between items-center pt-10 w-full">
-            <div className="flex justify-between w-full">
+          <div className=" justify-between  items-center pt-10 w-full">
+            <div className="flex justify-between w-full  flex flex-col lg:flex lg:flex-row items-center justify-center gap-y-3">
               {agentsData.map(({ img, name, title, id }) => {
                 return (
                   <div
-                    className={`${styles.imgDiv}  relative flex items-center justify-center md:flex md:flex-row  flex-col text-center`}
+                    className={`${styles.imgDiv}  relative flex flex-col lg:flex lg:flex-row items-center justify-center md:flex md:flex-row  flex-col text-center`}
                     key={id}
                   >
                     <img src={img} alt="Team Member Image" className=" mb-3 " />
                     <div className="absolute bottom-0 pt-3">
-                      <h3>{name}</h3> 
+                      <h3>{name}</h3>
                       <p>{title}</p>
                     </div>
                   </div>
