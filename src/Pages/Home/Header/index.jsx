@@ -40,14 +40,19 @@ function Index() {
             </span>
           </div>
         </div>
-        <div className={`${styles} lg:w-1/2 w-full h-full`}>
-          <iframe
-            src="https://techtalks2022.vietnamworks.com/?utm_content=Q&utm_source=GGD&utm_medium=TaG&utm_campaign=TT22&gclid=Cj0KCQjw94WZBhDtARIsAKxWG-_qRI5e4L8DpqRJQC-GBp3sQyyP3vF5pFudNv0CL9zXWtAvja5AgSMaAmPEEALw_wcB"
+        <div className={`${styles} w-1/2 `}>
+          <img
+            src="https://connectpoint.netlify.app/assets/249-2499266_transparent-white-globe-png-dotted-world-globe-vector%201.png"
+            alt=""
+            srcset=""
+          />
+          {/* <iframe
+            src="https://connectpoint.netlify.app/assets/249-2499266_transparent-white-globe-png-dotted-world-globe-vector%201.png"
             title="Youtube Player"
             frameborder="0"
             allowFullScreen
             className={`${styles.videoPlay}`}
-          />
+          /> */}
         </div>
       </div>
     </div>
