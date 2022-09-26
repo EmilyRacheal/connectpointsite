@@ -45,6 +45,7 @@ function Index() {
             src="https://connectpoint.netlify.app/assets/249-2499266_transparent-white-globe-png-dotted-world-globe-vector%201.png"
             alt=""
             srcset=""
+            className="w-4/5"
           />
           {/* <iframe
             src="https://connectpoint.netlify.app/assets/249-2499266_transparent-white-globe-png-dotted-world-globe-vector%201.png"
