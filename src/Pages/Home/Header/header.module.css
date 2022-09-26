@@ -1,9 +1,12 @@
 .containerHeight {
-  height: 100vh;
+  /* height: 100vh; */
+  /* background: rgb(126, 4, 24); */
 }
 
 .containerH {
-  height: calc(100vh - 10px);
+  height: calc(100vh - 70px);
+  max-height: 800px;
+  /* background: red; */
 }
 
 .headText h1 {
