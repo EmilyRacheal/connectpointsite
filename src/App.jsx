@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Pages/Home/index";
 import About from "./Pages/About/index";
 import Contact from "./Pages/Contact/index";
+import BuyAirtime from "./Pages/BuyAirtime/buyAirtime"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,9 +13,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/buyairtime" element={<BuyAirtime />} />
         </Routes>
       </BrowserRouter>
     </div>
