@@ -1,5 +1,8 @@
 .girlAirtime{
-    background: url('../../assets/girl.jpeg');
+    background: linear-gradient(
+    rgba(119, 149, 50, 0.7),
+    rgba(119, 149, 50, 0.7)
+  ),url(../../assets/girl.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
