@@ -1,0 +1,7 @@
+.girlAirtime{
+    background: url('../../assets/girl.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+}
