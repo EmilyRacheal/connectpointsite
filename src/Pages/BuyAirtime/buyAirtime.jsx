@@ -1,30 +1,38 @@
 import React from "react";
 import styles from "./buyAirtime.module.css";
 import Navbar from "../../components/Navbar";
-import Girl from "../../assets/girl.jpeg";
+import googleBtn from "../../assets/google.png";
+import { GiSmartphone } from "react-icons/gi";
+import { TbWorld } from "react-icons/tb";
+import { ImWhatsapp } from "react-icons/im";
+import { TbBrandLinkedin } from "react-icons/tb";
 
 function BuyAirtime() {
   return (
     <div>
       <Navbar />
-      <div className="w-full flex">
+      <div className="w-full flex-col md:flex-row flex">
         <div
-          className={`${styles.girlAirtime} w-1/2 flex items-center justify-center`}
+          className={`${styles.girlAirtime} hidden w-full md:w-1/2 md:flex items-center justify-center`}
         >
           <div className="flex items-center justify-center w-full max-w-[450px] text-white text-[40px] text-center font-semibold">
             <h1>BUY AIRTIME & DATA, GIFT LOVED ONES. AND GET POINTS</h1>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className=" w-full md:w-1/2 px-[5%] md:px-[10px]">
           <div className="flex items-center justify-center flex-col">
             <h3 className="mt-[25px] mb-7 text-[#05B0EF] text-[24px] font-semibold">
               Payments
             </h3>
+
             <div className="flex gap-x-3 my-[25px]">
-              <button className="bg-[#A6CF48] rounded-[25px] text-white text-sm px-5 py-1">
+              <button className="flex gap-x-2 items-center bg-[#A6CF48] rounded-[25px] text-white text-sm px-5 py-2">
+                <GiSmartphone size={20} />
                 Airtime
               </button>
-              <button className="bg-white rounded-[25px] text-[#A6CF48] shadow border-[1px] text-sm px-5 py-1">
+
+              <button className="flex gap-x-2 items-center bg-white rounded-[25px] text-[#A6CF48] shadow border-[1px] text-sm px-5 py-1">
+                <TbWorld size={20} />
                 Internt Bundle
               </button>
             </div>
@@ -40,8 +48,8 @@ function BuyAirtime() {
                     <label className="text-[14px] font-medium">Amount</label>
                     <input
                       type="text"
-                      placeholder="#0.00"
-                      className="outline-none h-[42px] py-2 px-3 rounded-[5px] bg-[#05B0EF80] text-white"
+                      placeholder="&#8358; 0.00"
+                      className="placeholder:text-white outline-none h-[42px] py-2 px-3 rounded-[5px] bg-[#05B0EF80] text-white"
                     />
                   </div>
                   <div className="flex flex-col gap-y-1 my-1">
@@ -60,17 +68,38 @@ function BuyAirtime() {
                     <input
                       type="text"
                       placeholder="0801 234 5678"
-                      className="outline-none py-2 h-[42px] px-3 rounded-[5px] bg-[#05B0EF80] text-white"
+                      className="placeholder:text-white outline-none py-2 h-[42px] px-3 rounded-[5px] bg-[#05B0EF80] text-white"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <button className="bg-[#A6CF48] mt-[20px] rounded-[10px] text-white text-sm px-12 py-3">
+                  <button className="bg-[#A6CF48] mt-[35px] rounded-[10px] text-white text-sm px-12 py-3">
                     Submit
                   </button>
                 </div>
               </form>
+            </div>
+
+            <div className="flex w-full md:px-[10%] px-[5%] mt-[50px] mb-[30px] justify-between">
+              <div>
+                <p className="text-[#05B0EF] text-[16px] font-bold">
+                  Contact Us
+                </p>
+                <p className="text-[12px] my-2">info@connectpoint.net </p>
+                <div className="flex items-center gap-x-2">
+                  <span className="bg-[#25D366] rounded-[50%] w-[27px] h-[27px] items-center flex justify-center">
+                    <ImWhatsapp color="white" />
+                  </span>
+                  <span className="bg-[#0e76a8] rounded-[50%] w-[27px] h-[27px] items-center flex justify-center">
+                    <TbBrandLinkedin color="white" />
+                  </span>
+                </div>
+              </div>
+
+              <button>
+                <img src={googleBtn} alt="google play btn" />
+              </button>
             </div>
           </div>
         </div>
