@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./buyAirtime.module.css";
 import Navbar from "../../components/Navbar";
 import googleBtn from "../../assets/google.png";
@@ -8,6 +8,12 @@ import { ImWhatsapp } from "react-icons/im";
 import { TbBrandLinkedin } from "react-icons/tb";
 
 function BuyAirtime() {
+  const [isAirtime, SetIsAirtime] = useState('airtime')
+
+  const handleIsAirtime = (type) =>{
+    SetIsAirtime(type)
+  }
+
   return (
     <div>
       <Navbar />
@@ -26,16 +32,20 @@ function BuyAirtime() {
             </h3>
 
             <div className="flex gap-x-3 my-[25px]">
-              <button className="flex gap-x-2 items-center bg-[#A6CF48] rounded-[25px] text-white text-sm px-5 py-2">
+              <button onClick={()=>handleIsAirtime('airtime')} className="flex gap-x-2 items-center bg-[#A6CF48] rounded-[25px] text-white text-sm px-5 py-2">
                 <GiSmartphone size={20} />
                 Airtime
               </button>
 
-              <button className="flex gap-x-2 items-center bg-white rounded-[25px] text-[#A6CF48] shadow border-[1px] text-sm px-5 py-1">
+              <button onClick={()=>handleIsAirtime('internet')} className="flex gap-x-2 items-center bg-white rounded-[25px] text-[#A6CF48] shadow border-[1px] text-sm px-5 py-1">
                 <TbWorld size={20} />
                 Internt Bundle
               </button>
             </div>
+
+<>
+
+           { isAirtime === 'airtime' ?
             <div className="w-full">
               <form
                 action=""
@@ -80,6 +90,52 @@ function BuyAirtime() {
                 </div>
               </form>
             </div>
+            :
+            <div className="w-full">
+              <form
+                action=""
+                className="flex flex-col items-center w-full justify-center"
+              >
+                <div
+                  className={`${styles.formBox} w-full max-w-[350px] flex flex-col gap-y-3`}
+                >
+                  <div className="flex flex-col gap-y-1">
+                    <label className="text-[14px] font-medium">Network</label>
+                    <input
+                      type="text"
+                      placeholder="Choose Network"
+                      className="placeholder:text-white outline-none h-[42px] py-2 px-3 rounded-[5px] bg-[#05B0EF80] text-white"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-y-1 my-1">
+                    <label className="text-[14px] font-medium">Data Plan</label>
+                    <select
+                      type="text"
+                      className="outline-none h-[42px] py-2 px-3 rounded-[5px] bg-[#05B0EF80] text-white"
+                    >
+                      <option value="">Select Plan</option>
+                    </select>
+                  </div>
+                  <div className="flex flex-col gap-y-1">
+                    <label className="text-[14px] font-medium">
+                      Phone Number
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="0801 234 5678"
+                      className="placeholder:text-white outline-none py-2 h-[42px] px-3 rounded-[5px] bg-[#05B0EF80] text-white"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <button className="bg-[#A6CF48] mt-[35px] rounded-[10px] text-white text-sm px-12 py-3">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>}
+</>
 
             <div className="flex w-full md:px-[10%] px-[5%] mt-[50px] mb-[30px] justify-between">
               <div>
